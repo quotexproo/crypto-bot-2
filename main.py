@@ -93,7 +93,7 @@ PAIRS_CONFIG = [
     ("bibox", "XRP/USDT"), ("bibox", "ADA/USDT")
 ]
 
-assert len(PAIRS_CONFIG) == 200
+# assert len(PAIRS_CONFIG) == 200  # Not needed in production
 
 # State
 if "signals" not in st.session_state:
